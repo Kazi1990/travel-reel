@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Deal by Ali</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      padding: 20px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .profile-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 20px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .profile-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .profile-desc {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .reel-link {
+      display: inline-block;
+      background: #4267B2;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .reel-link:hover {
+      background: #365899;
+    }
+
+    @media (max-width: 480px) {
+      .profile-card {
+        padding: 16px;
+      }
+
+      .reel-link {
+        padding: 10px 16px;
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <div class="profile-name">Travel Deal by Ali</div>
+    <div class="profile-desc">
+      ✈️ Amazing hotel and travel discounts worldwide.<br>
+      💼 Book now and save big!
+    </div>
+
+    <a class="reel-link" href="https://www.facebook.com/share/r/15yUzFd6ar/" target="_blank">
+      ▶️ Watch Facebook Reel
+    </a>
+  </div>
+
+</body>
+</html>
